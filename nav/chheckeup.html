@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nail Art Accessories</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+}
+
+.layout {
+  display: flex;
+  position: relative;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.sidebar-header {
+  background-color: #d71a28;
+  color: #fff;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.category-list {
+  list-style: none;
+}
+
+.category-list li {
+  padding: 14px 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.category-list li:hover {
+  background-color: #f6f6f6;
+}
+
+/* Main content */
+.main-content {
+  flex-grow: 1;
+  margin: 20px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.highlight {
+  color: #d71a28;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.shop-btn {
+  background-color: #d71a28;
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #b51220;
+}
+
+.hero-image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Floating Social Icons */
+.social-icons {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.social-icons a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: white;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a:nth-child(1) {
+  background-color: #3b5998;
+}
+
+.social-icons a:nth-child(2) {
+  background-color: #c13584;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+  </style>
+</head>
+<body>
+  <!-- <div class="layout"> -->
+    <div class="layout">
+    <div class="sidebar">
+      <div class="sidebar-header">Categories</div>
+      <ul class="category-list">
+        <li><i class="fa-solid fa-brush"></i> Nail Art Stamping</li>
+        <li><i class="fa-solid fa-flask"></i> Acrylic Powder & Liquid</li>
+        <li><i class="fa-solid fa-spray-can-sparkles"></i> Top Coat & Primer</li>
+        <li><i class="fa-solid fa-vial"></i> UV Gel & PolyGel</li>
+        <li><i class="fa-solid fa-wrench"></i> Nail Art & Tools</li>
+        <li><i class="fa-solid fa-gem"></i> Nail Decoration</li>
+        <li><i class="fa-solid fa-ellipsis-h"></i> Others</li>
+      </ul>
+    </div>
+
+    <main class="main-content">
+      <div class="hero-section">
+        <div class="hero-text">
+          <p class="highlight">Premium Quality</p>
+          <h1>We deal with imported and<br>Branded fashion accessories</h1>
+          <button class="shop-btn">Shop Now</button>
+        </div>
+        <div class="hero-image">
+          <img src="https://static.thehoneycombers.com/wp-content/uploads/sites/2/2020/05/nail-polish-diy-manicure.png" alt="Nail polishes" />
+        </div>
+      </div>
+    </main>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</body>
+</html>

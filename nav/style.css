@@ -7,12 +7,13 @@
     gap: 20px;
     text-decoration: none;
     list-style: none;
+    
+
 }
 .container{
-position:sticky;
-top: 0;
+/* position:sticky;
+top: 0; */
 /* background-color: rgb(243, 0, 0); */
-
 max-width: 200vw;
 }
 a {
@@ -268,4 +269,151 @@ left: 10px;
 
 .art-item:hover .nail-name {
     visibility: visible;
+}
+.layout {
+    display: flex;
+    position: relative;
+  }
+  
+  /* Sidebar */
+  .sidebar_main {
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  .sidebar-header {
+    background-color: #d71a28;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .category-list {
+    list-style: none;
+  }
+  
+  .category-list li {
+    padding: 14px 0px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+  
+  .category-list li:hover {
+    background-color: #f6f6f6;
+  }
+  
+  /* Main content */
+  .main-content {
+    flex-grow: 1;
+    margin: 20px;
+  }
+  
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .highlight {
+    color: #d71a28;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .shop-btn {
+    background-color: #d71a28;
+    color: #fff;
+    padding: 12px 28px;
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-btn:hover {
+    background-color: #b51220;
+  }
+  
+  .hero-image img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+    /* Footer */
+  footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+footer .foot-logo img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+footer div {
+  max-width: 300px;
+  margin: 10px;
+}
+
+footer h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f0c040;
+}
+
+footer p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+footer a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+footer li {
+  margin: 5px 0;
 }

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .signup-container {
+      background-color: #111;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      width: 300px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #fff;
+      color: #111;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #ddd;
+    }
+
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    width: 430px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    color: white;
+    text-align: left;
+    transition: background 0.4s ease;
+}
+
+.overlay h6 {
+    font-size: 14px;
+    color: #ffd1dc;
+    margin: 5px 0;
+}
+
+.overlay h2 {
+    margin: 5px 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.overlay button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.overlay button:hover {
+    background-color: #e91e63;
+}
+
+  </style>
+</head>
+<body>
+  <!-- <div class="signup-container">
+    <h2>Sign Up</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Sign Up">
+    </form>
+  </div> -->
+  <div class="cards">
+    <div class="card">
+        <img src="qx46ajis.png" alt="image">
+        <div class="overlay">
+            <h6>Best Deal</h6>
+            <h2>Amazing</h2>
+            <h2>Nailart</h2>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="gg3u8k9b.png" alt="image">
+        <div class="overlay">
+            <h6>Best of</h6>
+            <h2>Nail Art & Tools</h2>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="4kgsbiog.png" alt="image">
+        <div class="overlay">
+            <h6>Trending In</h6>
+            <h2>Nail</h2>
+            <h2>Decoration</h2>
+            <button>Shop Now</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

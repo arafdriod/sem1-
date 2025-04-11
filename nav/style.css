@@ -1,0 +1,271 @@
+.nave {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    padding: 0px 5px 0 5px;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+position:sticky;
+top: 0;
+/* background-color: rgb(243, 0, 0); */
+
+max-width: 200vw;
+}
+a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.aa {
+    display: flex;
+    /* width: 100px; */
+    gap: 36px;
+    font-size: 19px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.aa :hover {
+    text-decoration: underline;
+    color: red;
+
+}
+
+.bb button {
+    border: none;
+    background-color: white;
+    font-size: 21px;
+    padding-top: 9px;
+}
+
+.bb button:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+p {
+
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+    padding-top: 22px;
+    padding-right: 27px;
+}
+
+.icon {
+    display: flex;
+}
+.statici{
+    display: flex;
+    position:fixed;
+    top: 500px;
+
+}
+.statici p{
+    font-size: 30px;
+}
+.fa-facebook{color: blue;}
+.fa-whatsapp{color: green;}
+.fa-youtube{color: red;}
+/* sidebar */
+.sidebar {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+color: white;
+/* padding-left: 20px; */
+}
+
+.sidebar a {
+padding: 8px;
+text-decoration: none;
+font-size: 25px;
+color: white;
+display: block;
+transition: 0.3s;
+}
+
+.sidebar a:hover {
+color: #f1f1f1;
+}
+
+.sidebar form {
+margin-top: 20px;
+}
+
+.sidebar input {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+/* padding-left: 10px;*/
+/* margin-left: 15px; */
+/* margin-right: 10px; */
+}
+.h2{
+position: relative;
+left: 110px;
+}
+.sign button{
+position: relative;
+left: 100px;
+}
+/* Close button styles */
+.close-btn {
+font-size: 36px;
+position: absolute;
+top: 0;
+left: 10px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    width: 430px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    color: white;
+    text-align: left;
+    transition: background 0.4s ease;
+}
+
+.overlay h6 {
+    font-size: 14px;
+    color: #ffd1dc;
+    margin: 5px 0;
+}
+
+.overlay h2 {
+    margin: 5px 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.overlay button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.overlay button:hover {
+    background-color: #e91e63;
+}
+
+
+.container_arts{
+    width: 100;
+    margin: 0 auto;
+    background-color: #ffd1d170;
+}
+
+.styx h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.styx{
+    /* background-color: papayawhip; */
+}
+
+.styx p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.arts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    /* background-color: rgba(255, 192, 203, 0.349); */
+}
+
+.art-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.art-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.art-item:hover img {
+    transform: scale(1.1);
+}
+
+.art-item:hover {
+    transform: scale(1.05);
+}
+
+.nail-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.art-item:hover .nail-name {
+    visibility: visible;
+}
